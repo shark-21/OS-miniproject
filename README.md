@@ -1,4 +1,4 @@
-[![Anurag’s github stats](https://github-readme-stats.vercel.app/api?username=shark-21)](https://github.com/shark-21)
+
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shark-21&layout=compact)](https://github.com/shark-21)
 

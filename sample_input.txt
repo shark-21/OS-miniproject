@@ -1,0 +1,60 @@
+#Enter no. of users and no. of resources 
+5 3
+#Enter available no. instances of every resource 3 3 2
+
+#Enter resource allocation
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+#Enter maximum allocation
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+
+
+
+#Display all matrices ? (Y/N)
+Y
+
+#Make additional request? (Y/N)
+Y
+#Enter the request
+
+#user:
+ 1
+#Enter req :
+ 1 0 2 
+
+
+#Display all matrices ? (Y/N)
+Y
+
+
+
+#Make additional request? (Y/N)
+Y
+#Enter the request
+
+#user:
+ 4
+#Enter req : 
+3 3 0
+
+
+ 
+
+#Display all matrices ? (Y/N)
+Y
+
+#Make additional request? (Y/N)
+Y
+#Enter the request
+
+#user: 
+0
+#Enter req : 
+ 0 2 0

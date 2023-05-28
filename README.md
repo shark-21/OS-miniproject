@@ -1,20 +1,30 @@
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shark-21&layout=compact)](https://github.com/shark-21)
+
+## Installation
+
+Make sure you have g++ installed. Then follow the steps given below.
+
+```bash
+git clone https://github.com/shark-21/OS-miniproject.git
+cd OS-miniproject
+cd src
+```
+
+## Compile & Run in terminal
+
+```bash
+g++ ./bankers.cpp
+# now you can see a.out executable file ready
+./a.out
+```
+after compiling and running the code , you can try your custom input (make sure you have the expected output along with you) or test the input given in sample_input.txt file . 
+## Reference 
+Complete project report pdf is also provided . It also contains code explanations  
 
 
-IMPLEMENTATION :
-❖ The given code implements the Banker's algorithm in C++ language. The code
-takes input from the user, such as the number of users and the number of
-resources, available resources, resource allocation, and maximum allocation.
-The code then calculates the need of each user by subtracting the allocation
-from the maximum allocation. Then, the code checks whether the current state is
-safe or not by simulating the allocation and releasing the resources of each
-process one by one until all processes are completed. If the system can allocate
-resources to all processes safely, then it returns the safe sequence. Otherwise, it
-returns deadlock.
-❖ The code also provides an option to the user to display the current state of the
-system, and it also allows the user to make additional requests. The user can
-enter the process ID and the request. If the system can allocate the resources
-safely, then the request is accepted, and the system checks for deadlock again. If
-the system cannot allocate the resources safely, the request is rejected.
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
